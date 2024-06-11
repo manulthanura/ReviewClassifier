@@ -20,6 +20,10 @@ kaggle datasets download -d dineshpiyasamara/sentiment-analysis-dataset
 
 ## Data Preprocessing
 
+## Vocabulary Building
+
+in this step we will build a vocabulary from the dataset and vectorize the text data.
+
 Model Building
 Model Evaluation
 Prediction Pipeline
@@ -32,6 +36,8 @@ pip install -r requirements.txt
 pip list
 
 juptyer notebook
+python -m notebook
+
 
 ## File Structure
 
