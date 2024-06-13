@@ -72,6 +72,12 @@ To build a website we can use Flask or Django. In this project, I use Flask to b
 
 ## Deployment
 
+
+Before deploying project make sure to remove following libraries from requirements.txt file:
+`pywin32==306` and `pywinpty==2.0.13`
+
+Generally, these libraries are used for windows and not required for deployment. Mos of the cloud platforms like Heroku, Azure, AWS, etc. are Linux based.
+
 ## Usefull Commands
 
 - To install libraries: `pip install -r requirements.txt`
