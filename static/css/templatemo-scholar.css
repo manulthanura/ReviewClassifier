@@ -176,6 +176,11 @@ body {
   color: #fff;
 }
 
+/* Hide scroll bar */
+::-webkit-scrollbar {
+  display: none;
+}
+
 /* 
 ---------------------------------------------
 Pre-loader Style
