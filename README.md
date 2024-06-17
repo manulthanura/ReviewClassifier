@@ -2,6 +2,10 @@
 
 ReviewClassifier is a web application that classifies reviews into positive and negative categories. The application uses a machine learning model to classify the reviews. The model is trained using a dataset of reviews that are labeled as positive and negative. The model is then used to predict the sentiment of new reviews. The application is built using Flask, a Python web framework, and deployed on Azure, a cloud platform as a service. The application is designed to be simple and easy to use. Users can enter a review in a text box and click a button to classify the review. The application will then display the predicted sentiment of the review.
 
+<!-- add img -->
+![ReviewClassifier](./static/images/reviewclassifier.jpg)
+
+
 ![Static Badge](https://img.shields.io/badge/Repo-ReviewClassifier-purple) ![GitHub](https://img.shields.io/github/license/manulthanura/ReviewClassifier) ![GitHub Repo stars](https://img.shields.io/github/stars/manulthanura/ReviewClassifier?color=yellow) ![GitHub last commit](https://img.shields.io/github/last-commit/manulthanura/ReviewClassifier)
 
 ## Problem statement
