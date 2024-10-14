@@ -56,7 +56,7 @@ def get_prediction(vectorized_text):
     else:
         return 'Positive'
     
-# test
+# Test
 # txt = "good product I love it"
 # preprocessed_txt = preprocessing(txt)
 # vectorized_txt = vectorizer(preprocessed_txt, tokens)
